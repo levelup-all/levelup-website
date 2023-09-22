@@ -21,7 +21,7 @@ const ContactData = () => {
           suggestions.
         </p>
         <div className="flex flex-col md:flex-row">
-          <div className="basis-3/4 shrink-0">
+          <div className="basis-2/4 shrink-0">
             <h3 className="uppercase mt-5 mb-4 text-lg font-semibold">
               Levelup Sportslytics
               <span className="table text-sm">Singapore Office</span>
@@ -38,6 +38,28 @@ const ContactData = () => {
                 LevelUp Sportslytics Pte. Ltd., #04-11 Centre Mall,
                 <br /> Singapore, Singapore, 059567
               </li>
+
+              {/* <li className="flex gap-2 mb-2">
+                <Link
+                  target="_blank"
+                  href={"https://wa.me/6587471065"}
+                  className="flex gap-2 px-3 py-2 ml-[-8px] bg-[#455a64] text-white rounded-3xl"
+                >
+                  <Image
+                    src={WhatsApp}
+                    width={25}
+                    height={25}
+                    alt="WhatsApp"
+                    loading="lazy"
+                  />
+                  <span>Message us on Whats App</span>
+                </Link>
+              </li> */}
+            </ul>
+          </div>
+          <div className="mr-auto md:ml-auto md:pt-5">
+            {/* <h3 className="mt-5 mb-5 text-lg font-semibold">Find Us On</h3> */}
+            <ul>
               <li className="flex gap-2 mb-2">
                 <Image
                   src={Call}
@@ -59,18 +81,17 @@ const ContactData = () => {
                   loading="lazy"
                 />
                 <Link
-                  target="_blank"
                   className="text-theme"
                   href="mailto:sitanshu@levelupsportslytics.com"
                 >
                   sitanshu@levelupsportslytics.com
                 </Link>
               </li>
-              <li className="flex gap-2 mb-2">
+              <li className="flex">
                 <Link
                   target="_blank"
                   href={"https://wa.me/6587471065"}
-                  className="flex gap-2 px-3 py-2 ml-[-8px] bg-[#455a64] text-white rounded-3xl"
+                  className="flex gap-2 px-3 py-2 bg-[#455a64] md:ml-[-10px] ml-[-6px] text-white rounded-3xl"
                 >
                   <Image
                     src={WhatsApp}
@@ -81,14 +102,7 @@ const ContactData = () => {
                   />
                   <span>Message us on Whats App</span>
                 </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="mt-5 mb-5 text-lg font-semibold">Find Us On</h3>
-            <ul>
-              <li>
-                <Link
+                {/* <Link
                   className="flex items-center gap-2"
                   target="_blank"
                   href="https://www.youtube.com/@anshuflu"
@@ -100,7 +114,7 @@ const ContactData = () => {
                     loading="lazy"
                   />
                   <span>Youtube</span>
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>

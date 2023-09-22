@@ -54,7 +54,7 @@ const TopMenus = () => {
           <Logo />
         </div>
         <nav className="py-10">
-          <ul className="flex flex-col gap-3 font-semibold text-white text-base">
+          <ul className="flex flex-col gap-2 font-semibold text-white text-base">
             {MENUS.map((each: any) => (
               <li key={each.id} className="p-2">
                 <span
