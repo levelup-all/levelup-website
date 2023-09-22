@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body id="root" className={`${figtree.className} ${figtree.variable}`}>
+      <body
+        id="root"
+        className={`${figtree.className} ${figtree.variable} text-black`}
+      >
         <main>
           <Header />
           {children}
